@@ -13,7 +13,7 @@ function App() {
     >
     <div className='w-full fixed bottom-28 flex justify-center'>
 
-<div className='bg-white w-fit px-2 py-4 rounded-2xl flex flex-wrap justify-center items-center gap-3'>
+<div className='bg-white w-fit px-2 py-4 rounded-2xl flex flex-wrap justify-center items-center gap-3 mx-5'>
 
 <button onClick={()=> setColor("cyan")} className='px-4 text-white py-1 shadow-xl font-bold text-l rounded-xl m-1 md:mx-5 md:text-2xl md:px-10' style={{backgroundColor:"cyan"}}>Cyan</button>
 <button onClick={()=> setColor("crimson")} className='px-4 text-white py-1 shadow-xl  font-bold text-l rounded-xl m-1 md:mx-5 md:text-2xl md:px-10' style={{backgroundColor:"crimson"}}>Crimson</button>
